@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.screen-line {
+  max-width: 1385px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .nav-mini {
+    display: block !important;
+  }
+  .asdf {
+    display: none;
+  }
+}
+.nav-big {
+  display: block !important;
+}
+
+.nav-mini {
+  display: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+li a {
+  transition: 0.4s;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+li a:hover {
+  border-radius: 15px;
+  background-color: aqua;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  color: red;
+}
+
+.nav-tugmasi {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 100px;
+  background: none;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.nav-tugmasi:hover {
+  box-shadow: inset 0px 45px 20px rgb(255, 255, 255);
+  color: black;
+}
+
+.offcanvas-body-bac {
+  background-color: rgb(187, 35, 57);
+}
+.offcanvas-body-bac .__ofcanvas-body li {
+  padding-top: 15px;
+}
+.offcanvas-body-bac .__body-img {
+  display: flex;
+  justify-content: center;
+}

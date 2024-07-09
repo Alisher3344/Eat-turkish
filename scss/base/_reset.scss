@@ -1,0 +1,16 @@
+@use "../utils/functions" as func;
+*{
+  padding: 0;
+  margin:  0;
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+.screen-line{
+  $mb-padding: 20;
+  max-width: func.screen-line(1345, 0, $mb-padding);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $mb-padding + px;
+  padding-right: $mb-padding + px;
+} 

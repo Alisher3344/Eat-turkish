@@ -1,0 +1,54 @@
+@use "../utils/variables" as var;
+@media (max-width:1000px){
+.nav-mini{
+  display: block !important;
+}
+
+.asdf{
+  display:  none ;
+}}
+.nav-big{
+  display: block !important;
+}
+.nav-mini{
+display: none ;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+  a{
+  transition: 0.4s;
+  padding: 5px;
+    text-decoration: none;
+    color:var.$white;
+    &:hover{
+    border-radius: 15px;
+    background-color: aqua;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+color: red;
+  }
+}}
+.nav-tugmasi{
+  padding: 10px 40px;
+  border: none; border-radius: 100px;
+  background:  none;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: var.$white;
+  transition: 0.3s;
+  &:hover{
+    box-shadow: inset 0px 45px 20px var.$white;
+    color: black;
+  }
+}
+.offcanvas-body-bac{
+  background-color: var.$bac-color;
+  .__ofcanvas-body{
+    li{
+      padding-top: 15px;
+    }
+  }
+  .__body-img{
+    display: flex;
+    justify-content: center;
+  }
+}

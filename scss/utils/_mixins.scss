@@ -1,0 +1,9 @@
+@use "../utils/variables" as var;
+@mixin font ($family,$size,$weight,$height,$color,$widht){
+  font-family:$family;
+font-size:$size;
+font-weight:$weight;
+line-height:$height;
+color:$color;
+max-width:$widht;
+}
