@@ -4,7 +4,7 @@
     items :4,
       loop: true,
       margin: 20,
-      nav: false,
+      nav: true,
       autoplayTimeout:2500,
     autoplay:true,
     autoplayHoverPause:true,
@@ -24,4 +24,4 @@
   
       },
     });
-    
+  

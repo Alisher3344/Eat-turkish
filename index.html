@@ -14,6 +14,49 @@ integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTz
 crossorigin="anonymous"
 referrerpolicy="no-referrer"
 />
+<style>
+  .owl-carousel .owl-nav{
+   font-size: 50px;
+   color: red;
+  }
+  .owl-prev{
+    width:100px;
+  }
+
+  .nav-pills .nav-link.active{
+    background-color:  rgba(187, 35, 57, 1);
+    color: rgb(255, 255, 255) !important;
+  }
+  .nav-pills .nav-link{
+    border: none;
+    padding: 10px 30px;
+    border: 2px solid rgba(187, 35, 57, 1);
+    border-radius: 100px;
+  }
+   .nav-pills::-webkit-scrollbar{
+      margin-top: 10px !important;
+   height: 10px;
+   background: none;
+    }
+  @media (max-width:1262px){
+
+    .nav-pills{
+      white-space: nowrap;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      padding-bottom: 7px;
+    }
+    .nav-pills::-webkit-scrollbar{
+      margin-top: 10px !important;
+   height: 10px;
+   background-color: red;
+    }
+    .nav-pills::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 0, 0);
+  border-radius: 14px;
+  }
+  }
+</style>
   <title>Home</title>
 </head>
 <body>  
@@ -23,13 +66,13 @@ referrerpolicy="no-referrer"
 <div><a href=""><img src="./imgs/header-footer-img/nav-logo.svg" alt="No logo?"></a></div>
 <div class="d-flex align-items-center" style=" gap: 40px; ">
   <ul class="d-flex" style="gap: 40px;">
-    <li><a href="">Menu</a></li>
-    <li><a href="">News</a></li>
-    <li><a href="">About Us</a></li>
-    <li><a href="">Contact Us</a></li>
+    <li><a href="./pages/Menu.html">Menu</a></li>
+    <li><a href="./pages/News.html">News</a></li>
+    <li><a href="./pages/About.html">About Us</a></li>
+    <li><a href="./pages/Contact.html">Contact Us</a></li>
   </ul>
   <div><img id="mode-btn" src="./imgs/dark-theme.svg" alt="No img?"></div>
-  <button class="nav-tugmasi">Log in</button>
+  <a href="./pages/login.html"><button class="nav-tugmasi">Log in</button></a>
 </div>
   </div>
   </div></div>
@@ -64,7 +107,7 @@ referrerpolicy="no-referrer"
  <div class="Home-header d-flex align-items-center justify-content-between">
   <div class="Home-header-left">
 <h5>Chase the new Flavour</h5>
-<h1>The key to Fine dining</h1>
+<h1 style="color: white !important;">The key to Fine dining</h1>
 <p>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
 <button>Explore Menu</button>
   </div>
@@ -80,49 +123,623 @@ referrerpolicy="no-referrer"
   <p class="carusel-p">Popular Dishes</p>
   <div class="text-center " >
 <div class="owl-carousel owl-theme" >
-    <div class="item" ><div class="card" style="width: 18rem; border: none; border-radius: 14px;">
+    <div class="item" ><div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
   <img src="./imgs/klipartz 1 (4).svg" class="card-img-top" alt="No img?">
   <div class="card-body">
     <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
      <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
     <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
   </div>
 </div></div>
-    <div class="item" ><div class="card" style="width: 18rem; border: none; border-radius: 14px;">
+    <div class="item" ><div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
   <img src="./imgs/klipartz 1 (1).svg" class="card-img-top" alt="No img?">
   <div class="card-body">
     <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
      <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
     <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
   </div>
 </div></div>
-    <div class="item" ><div class="card" style="width: 18rem; border: none; border-radius: 14px;">
+    <div class="item" ><div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
   <img src="./imgs/klipartz 1 (2).svg" class="card-img-top" alt="No img?">
   <div class="card-body">
     <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
      <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
     <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
   </div>
 </div></div>
-    <div class="item" ><div class="card" style="width: 18rem; border: none; border-radius: 14px;">
+    <div class="item" ><div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
   <img src="./imgs/klipartz 1 (3).svg" class="card-img-top" alt="No img?">
   <div class="card-body">
     <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
      <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
     <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
   </div>
 </div></div>
-    <div class="item" ><div class="card" style="width: 18rem; border: none; border-radius: 14px;">
+    <div class="item" ><div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
   <img src="./imgs/klipartz 1 (2).svg" class="card-img-top" alt="No img?">
   <div class="card-body">
     <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
      <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
     <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
   </div>
 </div></div></div>
 
+</div>
+<div class="d-flex justify-content-end" style="padding: 71px;">
+<img class="barmn-img" src="./imgs/Group 85 (1).svg" alt="No img?">
 </div></div>
 </div>
+
+<div style="padding: 50px 0px 120px;">
+  <div class="screen-line">
+<p class="taabs-p">Our Regular Menu Pack</p>
+<ul class="nav nav-pills mb-3  gap-2" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" style="color: red;">All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: red;">Shawarma</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: red;">Turk Kebab</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: red;">Hamburger Kebab</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: red;">Doner kebab</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: red;">Shish kebab</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: red;">French fries Pizza</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: red;">Desserts</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+<div class="row justify-content-center gap-2">
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot1.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot2.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot3.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot4.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot5.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot6.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot7.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot8.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot9.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot10.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot11.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot12.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+  </div>
+ 
+</div>
+
+
+
+
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+<div class="row justify-content-center gap-2">
+<div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/klipartz 1 (4).svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot11.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot10.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot9.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot8.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot7.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot6.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot5.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot4.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot3.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+    <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot2.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+    <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot1.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+    <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+<div class="row justify-content-center gap-2">
+<div class="card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot6.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot12.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot7.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot1.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot9.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot3.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot8.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot4.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot5.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot10.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot11.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+<div class="col-3 card card1" style="width: 18rem; border: none; border-radius: 14px;">
+  <img src="./imgs/home-tab-iimgs/fastfoot2.svg" class="card-img-top" alt="No img?">
+  <div class="card-body">
+    <p class="card-text">Barbecue Shish kebab Shashlik Skewer</p>
+     <img class="img-size" src="./imgs/Group 134.svg" alt="No img?">
+    <h5>$12.00</h5>
+    <div class="affer"></div>
+    <div class="affer2"></div>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+    
+  </div>
+</div>
+
+
+<div class="Testimony-bac">
+  <div class="screen-line">
+<p class="Testimony-p">Testimony</p>
+<img class="Testimony-img" src="./imgs/Vector (7).svg" alt="Mo img?">
+<h1 class="Testimony-h1">Happy customers</h1>
+
+<div class="owl-carousel salom owl-theme" style="padding-top: 60px;">
+    <div class="item card-carucel-_"><div class="carusel-card-3">
+      <h1>Maria</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+    </div></div>
+    <div class="item card-carucel-_"><div class="carusel-card-3">
+      <h1>Maria</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+     
+    </div></div>
+    <div class="item card-carucel-_"><div class="carusel-card-3">
+      <h1>Maria</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+
+    </div></div>
+</div>
+  </div>
+</div>
+<div class="screen-line">
+  <div class="void-naws">
+  <p>News</p>
+  <img src="./imgs/Vector (8).svg" alt="No img?">
+  <h1>Gerícht updates</h1>
+</div>
+<div class="row justify-content-center">
+  <div class="col col-width--"><img class="size-img-mangal" src="./imgs/paul-hermann-jeiqzOgwwKU-unsplash 2 (1).svg" alt="No img?">
+  <h4 class="new-h4">tips for prepping and caring for your grill</h4>
+<p class="naw-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+<div class="d-flex justify-content-between">
+  <p class="new-p--1">Read More</p>
+  <p class="new-p--2">16 Apr 2021</p>
+</div></div>
+  <div class="col col-width--"><img class="size-img-mangal" src="./imgs/paul-hermann-jeiqzOgwwKU-unsplash 2 (1).svg" alt="No img?">
+  <h4 class="new-h4">tips for prepping and caring for your grill</h4>
+<p class="naw-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+<div class="d-flex justify-content-between">
+  <p class="new-p--1">Read More</p>
+  <p class="new-p--2">16 Apr 2021</p>
+</div></div>
+  <div class="col col-width--"><img class="size-img-mangal" src="./imgs/paul-hermann-jeiqzOgwwKU-unsplash 2 (1).svg" alt="No img?">
+  <h4 class="new-h4">tips for prepping and caring for your grill</h4>
+<p class="naw-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+<div class="d-flex justify-content-between">
+  <p class="new-p--1">Read More</p>
+  <p class="new-p--2">16 Apr 2021</p>
+</div></div>
+</div>
+<div class="d-flex justify-content-center"><button class="naw-button">View More</button></div>
+
+</div>
+<div class="modal-bac d-flex align-items-center justify-content-center">
+  <div class="baccc d-flex align-items-center justify-content-center"><button type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: none; border: none;">
+  <img src="./imgs/home-tab-iimgs/Play (1).svg" alt="">
+</button></div>
+  
+</div>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgba(187, 35, 57, 1);">
+       <img src="./imgs/header-footer-img/nav-logo.svg" alt="no brend?">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="background-color: rgba(187, 35, 57, 1);">
+       <iframe width="460" height="315" src="https://www.youtube.com/embed/sE-g98Jh774?si=TKhsj4qlzuTJSapZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer" style="background-color: red !important;">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="instagram-carusel-bac">
+  <div class="screen-line" style="overflow: hidden;">
+    <div class="d-flex align-items-center gap-5">
+<div  class="instagram-lelft">
+<p>Instagram</p>
+<h2>Photo Gallery</h2>
+<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</h6>
+<button>View More</button>
+</div>
+<div>
+  <!-- <div class="owl-carousel owl-theme">
+    <div class="item" style="width: 300px;"><img src="./imgs/1--.svg" alt=""></div>
+    <div class="item"style="width: 300px;"><img src="./imgs/2--.svg" alt=""></div>
+    <div class="item" style="width: 300px;"><img src="./imgs/1--.svg" alt=""></div>
+    <div class="item" style="width: 300px;"><img src="./imgs/1--.svg" alt=""></div>
+    <div class="item" style="width: 300px;"><img src="./imgs/1--.svg" alt=""></div>
+</div>
+</div> -->
+<div></div>
+
+</div>
+  </div>
+</div>
+<footer style="background-color: rgba(187, 35, 57, 1);">
+  <div class="screen-line">
+    <div class="mini-foot" style="position:relative; top: -200px;">
+      <p class="footerp1">Newsletter</p>
+      <h1 class="footerph1" style="color: white !important;">Subscribe to Our Newsletter</h1>
+      <h4 class="footer-h4">And never miss latest Updates!</h4>
+      <form action="">
+        <input type="text" placeholder="Email Address">
+        <button class="foot-button">Subscribe</button>
+      </form>
+    </div>
+
+
+    <div class="d-flex justify-content-between fout">
+      <div class="end-footer-h4"><h4>Contact Us</h4>
+      <p class="end-footer-p1">9 W 53rd St, London, NY 10019, UK</p>
+      <p class="end-footer-p1">+1 212-344-1230</p>
+      <p class="end-footer-p1">+1 212-555-1230</p></div>
+
+
+      <div>
+       <img src="./imgs/header-footer-img/nav-logo.svg" alt="No brend">
+      <p class="end-footer-p1" style="max-width: 438px; padding: 32px 0px 45px  ;">"The best way to find yourself is to lose yourself in the service of others.”</p>
+    <img src="./imgs/Social media.svg" alt="no img?">
+  </div>
+
+
+      <div><h4 class="end-footer-h4">Working Hours</h4>
+      <p class="end-footer-p1">Monday-Friday:
+08:00 am -12:00 am</p>
+<p class="end-footer-p1">Saturday-Sunday:
+07:00am -11:00 pm</p></div>
+    </div>
+  </div>
+</footer>
  <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
             integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="

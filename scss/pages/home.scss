@@ -73,3 +73,322 @@ letter-spacing: 0.03em;
 text-align: left;
 
 }
+.card1{
+cursor: pointer;
+overflow: hidden;
+position: relative;
+p{
+  @include mxn.font(Open Sans,18px,600,24.51px,black, auto);
+text-align: center;
+position: relative;
+z-index: 3;
+}
+h5{
+  @include mxn.font ( Open Sans,24px,700,32.68px,var.$bac-color,auto);
+  font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.68px;
+text-align: center;
+position: relative;
+z-index: 3;
+}
+  .affer{
+    transition: 1s;
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+width: 0px;
+height: 0px;
+left: 0;
+right: 0;
+border-radius: 50%;
+  }
+  img{
+    position: relative;
+    z-index: 3;
+  }
+&:hover{
+  h5{
+    color: var.$white;
+  }
+  p{
+    color:var.$white
+  }
+  .affer{
+    border-radius: 20%;
+    top: 0px;
+    left: 0;
+right: 0;
+width: 250px;
+height: 350px;
+background: var.$bac-color;
+
+z-index: 2;
+  }
+  .affer2{
+    border-radius: 20%;
+    bottom: 0px;
+    left: 0;
+right: 0;
+width: 250px;
+height: 350px;
+background: var.$bac-color;
+
+z-index: 2;
+  }
+}
+.affer2{
+    transition: 1s;
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+width: 0px;
+height: 0px;
+left: 0;
+right: 0;
+border-radius: 50%;
+}}
+.barmn-img{
+  animation-name: bar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  @keyframes bar {
+    0%{
+    transform: rotate(-20deg);
+    }
+    50%{
+      transform: rotate(20deg);
+    }
+    100%{
+    transform: rotate(-20deg);
+    }
+  }
+}
+.taabs-p{
+  padding-top: 120px;
+  padding-bottom: 60px;
+  @include mxn.font (Cera Round Pro,48px,500,48px,var.$bac-color,auto);
+text-align: left;
+}
+.Testimony-bac{
+  margin-top: 200px 0px;
+  padding: 100px 0px;
+  background-color: 
+rgba(244, 244, 244, 1);
+text-align: center;
+.Testimony-p{
+@include mxn.font (Cera Round Pro,23px,700,29.9px,black,auto);
+}
+.Testimony-h1{
+@include mxn.font (Cera Round Pro,48px,400,62.4px,black,auto);
+text-align: center;
+}
+}.card-carucel-_{
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.4s;
+  border-radius: 20px;
+  background-color: white;
+  &:hover{
+   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 30px;
+  }
+ .carusel-card-3{
+  padding: 20px;
+}
+  p{
+    @include mxn.font (Cera Round Pro,14px,400,22px,black,auto);
+    padding-bottom: 60px;
+    text-align: left;
+  }
+ }
+
+ .void-naws{
+   padding: 120px 0px;   
+   text-align: center;
+  }
+  h1{
+    @include mxn.font ( Cera Round Pro,48px,500,62.4px,var.$bac-color !important,auto);
+    padding-bottom: 60px;
+  }
+  .col-width--{
+    max-width: 430px !important;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  
+    &:hover{
+      img{
+   animation-name: imgd;
+   animation-duration: 1s;
+  animation-iteration-count: infinite;
+     
+        @keyframes imgd{
+          0%{
+           border-radius: 100px 0px 100px 0px;
+          }
+          50%{
+            border-radius: 0px 100px 0px 100px;
+          }
+          100%{
+            border-radius: 100px 0px 100px 0px;
+          }
+      }
+      }
+    }
+    .new-p--1{
+      @include mxn.font (Cera Round Pro,16px,700px,16px,red,auto);
+    }
+    .new-p--2{
+      @include mxn.font (Cera Round Pro,16px,700px,16px,rgb(0, 0, 0),auto);
+    }
+  }
+  .new-h4{
+    padding-top: 20px;
+    text-transform: capitalize;
+    text-align: left;
+    @include mxn.font (Cera Round Pro,24px,500,32px,black,332px);
+  }
+  .naw-p{
+    text-align: left;
+    @include mxn.font (Cera Round Pro,14px,400,24px,rgba(170, 170, 170, 1),361px);
+    padding-top: 10px;
+  }
+  p{
+    @include mxn.font(Cera Round Pro,23px,700,29.9px,black,auto);
+}
+.naw-button{
+  margin-top: 50px;
+  margin-bottom: 120px;
+  background: none;
+  padding: 8px 32px;
+  border: 1px solid rgba(187, 35, 57, 1);
+  border-radius: 100px;
+}
+.modal-bac{
+  background-image: url(../../imgs/home-tab-iimgs/modal-bac.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 763px;
+  background-size: cover;
+  background-position: center;
+  .baccc{
+    width: 100%;
+    height: 763px;
+    background: rgba(7, 6, 6, 0.541);
+
+  }
+}
+.instagram-carusel-bac{
+  margin:120px 0px;
+  padding: 130px 0px;
+  background-color: rgba(244, 244, 244, 1);
+
+  .instagram-lelft{
+    padding-left: 200px;
+    p{
+      @include mxn.font (Cera Round Pro,23px,700,29px,black,auto);
+text-align: left;
+    }
+
+    h1{
+      @include mxn.font (Cera Round Pro,48px,500,62px,black,auto);
+text-align: center;
+    }
+    h6{
+      padding-top: 24px;
+      @include mxn.font ( Open Sans,16px,400,28px,rgba(170, 170, 170, 1),491px);
+      //styleName: Body 16px Regular;
+      width: 492px;
+    button{
+      margin-top: 24px;
+      transition: 0.3s;
+      padding: 8px 32px;
+      border: 1px solid rgba(187, 35, 57, 1);
+      border-radius: 100px;
+      &:hover{
+        box-shadow: inset 0px 40px 30px black;
+        color: wheat;
+      }
+    }
+  }
+}}
+input{
+  padding-bottom: 64px;
+padding: 15px;;
+  width: 600px;
+  outline: none;
+  border-radius: 100px;
+  border: 1px solid white;
+  background: none ;
+  button{
+  
+      &:hover{
+        box-shadow: inset 0px 40px 30px black;
+        color: wheat;
+      }
+  }
+}
+
+footer{
+  text-align: center;
+ .end-footer-h4{
+  @include mxn.font (Cera Round Pro,32px,400,41.6px,white,auto);
+  padding-bottom: 24px;
+text-align: center;
+ }
+ .end-footer-p1{
+  @include mxn.font (Open Sans,16px,400,26px,white,auto);
+text-align: center;
+
+ }
+}
+.mini-foot{
+  padding-bottom: 30px;
+  background-color: var.$bac-color;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+
+    .footerp1{
+      padding-top: 64px;
+  @include mxn.font (Cera,23px,700,29px,white,auto);
+  padding-bottom: 25px;
+  text-align: center;
+    }
+    .footerh1{
+  @include mxn.font (Cera Round Pro,48px,500,62px,white,auto);
+  text-align: center;
+  padding-bottom: 24px;
+  margin: 0 auto;
+  }
+  .footer-h4{
+    @include mxn.font (Open Sans,16px,400,28px,white,auto);
+  text-align: center;
+  padding-bottom: 64px;
+  }
+  }
+  .foot-button{
+    transition: 0.4s;
+    padding: 10px 32px;
+    border-radius: 100px;
+    background: none;
+    &:hover{ 
+          box-shadow: inset 0px 40px 30px black;
+          color: wheat;
+    }
+}
+@media (max-width:962px){
+  .fout{
+    flex-direction: column;
+  }
+  input{
+    width: 280px;
+  }
+}
+@media (max-width:500px){
+ .size-img-mangal{
+  width: 200px;
+ }
+}
