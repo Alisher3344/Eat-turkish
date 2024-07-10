@@ -1,0 +1,7 @@
+@use "./scss/utils/mixins" as mxn;
+@use "./scss/utils/variables" as var;
+
+.content-h3{
+  @include mxn.font(Cera Round Pro,64px,500,83.2px,black,auto);  
+text-align:center;
+}

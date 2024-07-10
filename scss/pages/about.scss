@@ -1,0 +1,12 @@
+@use "../utils/variables" as var;
+@use "../utils/mixins" as mxn;
+.about-h1{
+  @include mxn.font (Cera Round Pro,64px,500,83px,black,auto);
+text-align: center;
+
+}
+.about-p{
+  @include mxn.font (Open Sans,20px,400,32px,black,720px !important);
+text-align: left;
+
+}

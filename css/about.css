@@ -1,0 +1,19 @@
+.about-h1 {
+  font-family: Cera Round Pro;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 83px;
+  color: black;
+  max-width: auto;
+  text-align: center;
+}
+
+.about-p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: black;
+  max-width: 720px !important;
+  text-align: left;
+}
