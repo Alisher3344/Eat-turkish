@@ -166,7 +166,7 @@ border-radius: 50%;
   }
 }
 .taabs-p{
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 60px;
   @include mxn.font (Cera Round Pro,48px,500,48px,var.$bac-color,auto);
 text-align: left;
@@ -210,7 +210,7 @@ text-align: center;
   }
   h1{
     @include mxn.font ( Cera Round Pro,48px,500,62.4px,var.$bac-color !important,auto);
-    padding-bottom: 60px;
+    padding-bottom: 20px;
   }
   .col-width--{
     max-width: 430px !important;
@@ -221,7 +221,7 @@ text-align: center;
     &:hover{
       img{
    animation-name: imgd;
-   animation-duration: 1s;
+   animation-duration: 5s;
   animation-iteration-count: infinite;
      
         @keyframes imgd{

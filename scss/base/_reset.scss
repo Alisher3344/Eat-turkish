@@ -14,3 +14,76 @@
   padding-left: $mb-padding + px;
   padding-right: $mb-padding + px;
 } 
+.navbar-shrink{
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+.navbar-shrink2 {
+
+  position: fixed;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+#navbar{
+  transition: 0.5s;
+}
+#navbar2{
+  transition: 0.5s;
+}
+.darke2 .Home-header-bac{
+  background-color: black;
+}
+.darke2 .carusel-bac{
+  background-color:#C4DFFB;
+}
+.darke2 .TABS-BAC{
+  background-color: black;
+  .taabs-p{
+    color: white;
+  }
+   .nav-pills .nav-link{
+   
+    color: rgb(255, 255, 255) !important;
+  }
+
+}
+.darke2 .Testimony-bac{
+  background-color: rgb(24, 24, 24);
+  .Testimony-p{
+    color: white;
+  }
+  .Testimony-h1{
+    color: #C4DFFB !important;
+  }
+}
+.darke2 .cvoid-bac{
+  background-color: rgb(91, 91, 91);
+  h1{
+    color: white !important;
+  }
+  h4{
+    color: white;
+  }
+}
+.darke2 .Home-header-bac{
+  background-color: black;
+}
+.darke2 .footer-bac{
+  background-color: #C4DFFB !important;
+}
+.darke2 footer{
+  background-color: #000000 !important;
+}
+.darke2 .mini-foot{
+ background-color: #465975;
+}
+.darke2 .menu-tab-bac{
+ background-color: black;
+}
+.mwnu-flext{
+  @media (max-width:509px) {
+   flex-direction: column;
+   align-items: center;
+  }
+}

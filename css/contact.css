@@ -1,8 +1,8 @@
-.content-h3 {
-  font-family: Cera Round Pro;
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 83.2px;
+.phonr-nummer {
+  padding: 18px;
+  background: rgba(36, 36, 36, 0.05);
+  border-radius: 45%;
+}ght: 83.2px;
   color: black;
   max-width: auto;
   text-align: center;

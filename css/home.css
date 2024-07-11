@@ -198,7 +198,7 @@
 }
 
 .taabs-p {
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 60px;
   font-family: Cera Round Pro;
   font-size: 48px;
@@ -270,7 +270,7 @@ h1 {
   line-height: 62.4px;
   color: rgb(187, 35, 57) !important;
   max-width: auto;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .col-width-- {
@@ -281,7 +281,7 @@ h1 {
 }
 .col-width--:hover img {
   animation-name: imgd;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 @keyframes imgd {
